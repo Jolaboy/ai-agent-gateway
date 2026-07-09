@@ -15,10 +15,12 @@ graph TD
     F -.->|Async Token Delivery| B
     B -->|Step 3: Text Event Stream Transform| E[Immediate Browser Rendering]
 
-    style B fill:#1e1e2f,stroke:#8b5cf6,stroke-width:2px
-    style C fill:#0f172a,stroke:#22c55e,stroke-width:2px
-    style D fill:#0f172a,stroke:#ec4899,stroke-width:2px
-    style F fill:#0f172a,stroke:#f59e0b,stroke-width:2px
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e2e8f0
+    style B fill:#1e1e2f,stroke:#8b5cf6,stroke-width:2px,color:#e2e8f0
+    style C fill:#0f172a,stroke:#22c55e,stroke-width:2px,color:#e2e8f0
+    style D fill:#0f172a,stroke:#ec4899,stroke-width:2px,color:#e2e8f0
+    style E fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e2e8f0
+    style F fill:#0f172a,stroke:#f59e0b,stroke-width:2px,color:#e2e8f0
 ```
 
 ## AI Integration Specs
