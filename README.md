@@ -7,8 +7,8 @@ An edge-optimized AI middleware routing pipeline built for V8 isolate nodes. The
 ```mermaid
 graph TD
     A[Browser Client Ingress] -->|JSON Prompt Payload| B[Next.js 15 Edge Worker]
-    B -->|"Step 1: Embed +<br/>Vector Query"| C[(Pinecone Vector DB)]
-    C -->|"&nbsp;<br/>Top-k Context"| B
+    B -->|Step 1: Embed + Vector Query| C[(Pinecone Vector DB)]
+    C -->|Top-k Context| B
     B -->|Step 2: Stream Allocation| D[OpenAI API]
     D -->|Async Token Delivery| B
     D -.->|On failure| F[Local Llama 3 Fallback]
